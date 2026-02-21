@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro - Time to focus!</title>
+    <link rel = "stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4c4c3bbfd6.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <section>
+            <h1>Pomodoro</h1>
+        </section>
+        <div class="headerButton">
+            <button> <i class="fa-solid fa-gear"></i> Settings </button>
+            <button>
+                <p> Sign In <i class="fa-solid fa-right-to-bracket"></i></p>
+            </button>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <section class="stopWatch">
+            <div>
+                <h2 id = "timerLbl"> 25:00 </h2>
+            </div>
+            <div class="countdownButtons">
+                <button id="startBtn">Start</button>
+                <button id="restartBtn">Restart</button>
+                <button id="breakBtn">Short Break</button>
+            </div>
+        </section>
+        
+        <button> <i class="fa-solid fa-square-plus"></i> Add task </button>
+    </main>
+    
+    <!-- <footer>
+    </footer> -->
+    
+    
+    <script src = "countdown.js" defer> </script>
+</body>
+</html>
