@@ -36,6 +36,7 @@ router.post('/register', async (req, res) => {
             maxAge: 24 * 60 * 60 * 1000 // 24 hours
         });
         res.json({ accessToken});
+        console.log("Refresh token created")
     } catch (err) {
         console.log(err.message);
         res.sendStatus(503);
